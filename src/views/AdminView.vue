@@ -102,7 +102,12 @@
     },
     mounted() {
         this.$store.dispatch('jsData')
-    }
+    },
+      gatherFormData(){
+        return{
+          
+        }
+      } 
     }
 </script>
 

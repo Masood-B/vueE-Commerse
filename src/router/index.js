@@ -21,6 +21,11 @@ const routes = [
     path: '/admin',
     name: 'admin',
     component: () => import(/* webpackChunkName: "about" */ '../views/AdminView.vue')
+  },
+  {
+    path: '/singlepage/:id?',
+    name: 'singlepage',
+    component: () => import(/* webpackChunkName: "about" */ '../views/SingleView.vue')
   }
 ]
 
